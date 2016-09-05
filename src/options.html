@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head><title>Hungerai</title></head>
+<style>
+  body {
+    font-size: small;
+  }
+  .option {
+    margin-bottom: .6em;
+  }
+  .clearfix {
+    overflow: auto;
+  }
+  input[type="checkbox"] {
+    margin-right: 0.5em;
+  }
+</style>
+<body>
+<div style="margin-bottom: 10px;">
+  <p>
+    Choose search service.<br>
+  </p>
+  <div class="option">
+    <label>
+      <input type="checkbox" id="foursquare" />
+      <strong>Foursquare</strong>
+    </label>
+  </div>
+  <div class="option">
+    <label>
+      <input type="checkbox" id="yelp" />
+      <strong>Yelp</strong>
+    </label>
+  </div>
+  <div class="option">
+    <label>
+      <input type="checkbox" id="_options" />
+      <strong>Change Seach Option</strong> -
+      Opens this options page
+    </label>
+  </div>
+</div>
+<div class="clearfix" style="font-size: smaller; margin-top: 20px;">
+  <span style="float: left">Changes are saved automatically.</span>
+  <span style="float: right">
+    <a target="_blank" href="https://github.com/kihyunwom/hungerai/releases">
+      Version <span id="version"></span>
+    </a>
+  </span>
+</div>
+<script src="options.js"></script>
+</body>
+</html>
